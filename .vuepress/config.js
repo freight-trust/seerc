@@ -1,18 +1,18 @@
 module.exports = {
-  title: 'Add your Token to DApp browsers or MetaMask',
-  description: 'A simple DApp that allows suggesting and adding a Token to users of compatible wallets like MetaMask.',
+  title: 'Add $EDI to DApp browsers or MetaMask',
+  description: 'Automagically add $EDI to compatible wallets like MetaMask.',
   base: '/watch-token/',
-  ga: 'UA-115756440-2',
+  ga: '',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:url', content: 'https://vittominacori.github.io/watch-token' }],
-    ['meta', { property: 'og:image', content: 'https://vittominacori.github.io/watch-token/assets/images/watch-token.jpg' }], // eslint-disable-line max-len
+    ['meta', { property: 'og:image', content: 'https://freight-public.s3-us-west-1.amazonaws.com/ft_logo-2x.png' }], // eslint-disable-line max-len
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
-    ['meta', { property: 'twitter:image', content: 'https://vittominacori.github.io/watch-token/assets/images/watch-token.jpg' }], // eslint-disable-line max-len
-    ['meta', { property: 'twitter:title', content: 'WatchToken | Add your Token to DApp browsers or MetaMask' }],
+    ['meta', { property: 'twitter:image', content: 'https://freight-public.s3-us-west-1.amazonaws.com/ft_logo-2x.png' }], // eslint-disable-line max-len
+    ['meta', { property: 'twitter:title', content: 'Instant Add $EDI to your Wallet' }],
     ['script', { src: '/assets/js/web3.min.js' }],
   ],
   defaultNetwork: 'mainnet',
-  infuraProjectId: 'be402bb729b2472ba828e013468dc626',
+  infuraProjectId: '333623408a9546b78b8808342c2e73d3',
 };
